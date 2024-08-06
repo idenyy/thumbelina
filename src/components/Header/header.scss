@@ -41,7 +41,7 @@ header {
 			font-size: 16px;
 			font-weight: 400;
 			text-decoration: none;
-
+                        transition: all 0.15s;
 			color: #898989;
 
 			&:not(:last-child) {
@@ -51,8 +51,7 @@ header {
 			&:hover {
 				color: #4f4d47;
 			}
-
-			transition: all 0.15s;
+			
 		}
 	}
 }
